@@ -14,7 +14,7 @@ spec:
   spec:
     containers:
     - name: web-container
-      image: 556438350842.dkr.ecr.eu-north-1.amazonaws.com/gitops-repo:latest
+      image: 556438350842.dkr.ecr.eu-north-1.amazonaws.com/gitops-repo:d99df0547b301881a86bae794799522755862eb9
       ports:
         - containerPort: 5000
       resources:
