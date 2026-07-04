@@ -16,7 +16,7 @@ spec:
     app: web-app
   spec:
     containers:
-    - name: web-app
+    - name: web-container
       image: 556438350842.dkr.ecr.eu-north-1.amazonaws.com/gitops-repo:latest
       ports:
         - containerPort: 5000
